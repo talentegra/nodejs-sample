@@ -3,7 +3,7 @@ const port = process.env.PORT || 80;
 
 const server = http.createServer((req, res) => {
 	  res.statusCode = 200;
-	  const msg = 'Hello Node!\n'
+	  const msg = 'Hello Node! Welcome to App Engine\n'
 	  res.end(msg);
 });
 
